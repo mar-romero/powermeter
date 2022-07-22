@@ -9,21 +9,20 @@ La api comienza el path http://localhost:8000/api/ y para realizar los diferente
     # save/
     En este path se envia un JSON ({"mediciones": [1, -2, 3.2, 7]}) y este lo guarda en la base de datos sqlite en diferentes objetos dentro de un array.
     Ejemplo:
-    [
-    {
-        "mediciones": 1.0
-    },
-    {
-        "mediciones": -2.0
-    },
-    {
-        "mediciones": 3.2
-    },
-    {
-        "mediciones": 7.0
-    }
-    ]
-    
+        [
+        {
+            "mediciones": 1.0
+        },
+        {
+            "mediciones": -2.0
+        },
+        {
+            "mediciones": 3.2
+        },
+        {
+            "mediciones": 7.0
+        }
+        ]
 # list/
 Es ente path se muestran todas las mediciones
 # max/
