@@ -24,14 +24,14 @@ La api comienza el path http://localhost:8000/api/ y para realizar los diferente
     }
     ]
     
-    # list/
-    Es ente path se muestran todas las mediciones
-    # max/
-    Muestra la maxima medicion que se guardo en la base de datos
-    # min/
-    Muestra la minima medicion que se guardo en la base de datos
-    # avg/
-    Muestra el promedio de las mediciones que se guardo en la base de datos
-    # api/<int:pk>(el id deseado)
-    Indicando el ID de la medicion muestra solamente dicho dato,
+# list/
+Es ente path se muestran todas las mediciones
+# max/
+Muestra la maxima medicion que se guardo en la base de datos
+# min/
+Muestra la minima medicion que se guardo en la base de datos
+# avg/
+Muestra el promedio de las mediciones que se guardo en la base de datos
+# api/<int:pk>(el id deseado)
+Indicando el ID de la medicion muestra solamente dicho dato,
 
