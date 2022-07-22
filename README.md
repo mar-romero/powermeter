@@ -3,12 +3,12 @@
 En la carpeta Ejercicio 2 se encuentra resuelto dicho ejercicio.
 
 Con respecto a la api creada origine vista mas agradables 
-para enviar datos, modificar, consultar o actualizar datos gracias a framewokrs rest_framework.decorators
+para enviar, eliminar, consultar o actualizar datos gracias a framewokrs rest_framework.decorators
 
 La api comienza el path http://localhost:8000/api/ y para realizar los diferentes pedidos se crearon los siguentes path:
-    # save/
-    En este path se envia un JSON ({"mediciones": [1, -2, 3.2, 7]}) y este lo guarda en la base de datos sqlite en diferentes objetos dentro de un array.
-    Ejemplo:
+# save/
+En este path se envia un JSON ({"mediciones": [1, -2, 3.2, 7]}) y este lo guarda en la base de datos sqlite en diferentes objetos dentro de un array.
+Ejemplo:
         [
         {
             "mediciones": 1.0
